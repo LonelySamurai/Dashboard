@@ -1,4 +1,4 @@
-package supremez2.zwskin.diamondinc.com.supremezdashboard;
+package com.lonelysamurai.bluemoon;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
