@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.supremez.dashboard">
+    package="com.lonelysamurai.bluemoon.zwskin">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
 
     <application
-        android:name="com.supremez.dashboard.CalligraphyApplication"
+        android:name="com.lonelysamurai.bluemoon.zwskin"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -19,7 +19,7 @@
         <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
 
         <activity
-            android:name="com.supremez.dashboard.MainActivity"
+            android:name="com.lonelysamurai.bluemoon.zwskin.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,7 +52,7 @@
         -->
         <provider
             android:name="org.zooper.zwskin.TemplateProvider"
-            android:authorities="supremez2.zwskin.diamondinc.com.supremezdashboard" />
+            android:authorities="com.lonelysamurai.bluemoon..zwskin.zwprovider" />
         <!-- END Zooper Widget definition -->
 
         <activity
@@ -64,16 +64,16 @@
             android:parentActivityName="com.antonioleiva.materialeverywhere.HomeActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.supremez.dashboard.MainActivity" />
+                android:value="com.lonelysamurai.zwskin.MainActivity" />
         </activity>
         <activity
             android:name="com.supremez.dashboard.AboutActivity"
             android:label="@string/title_activity_about"
-            android:parentActivityName="com.supremez.dashboard.MainActivity"
+            android:parentActivityName="com.lonelysamurai.bluemoon.zwskin.MainActivity"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.supremez.dashboard.MainActivity" />
+                android:value="com.lonelysamuraibluemoon.zwskin.MainActivity" />
         </activity>
 
 
